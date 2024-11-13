@@ -1,7 +1,8 @@
 # PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24
-<h3>ENTER YOUR NAME:NAGALAPURAM HASIF</h3>
-<h3>ENTER YOUR REGISTER NO:212223100036</h3>
-<h3>EX. NO:06</h3>
+<h3>AIM:</h3>
+<h3>ENTER YOUR NAME</h3> NAGALAPURAM HASIF
+<h3>ENTER YOUR REGISTER NO</h3>212223100036
+<h3>EX. NO</h3>
 <h3>DATE</h3>
 <h1> <align=center> MATRIX TRANSPOSITION USING SHARED MEMORY </h3>
   Implement Matrix transposition using GPU Shared memory.</h3>
@@ -60,7 +61,6 @@ Google Colab with NVCC Compiler
 16. End of Algorithm
 
 ## PROGRAM:
-TYPE YOUR CODE HERE
 ```
 %%cuda
 #include <stdio.h>
@@ -397,9 +397,8 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 ```
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
-![image](https://github.com/user-attachments/assets/4e10de2d-e4d1-4607-800a-e347f02ba9f0)
+![image](https://github.com/user-attachments/assets/c85ccdf7-2d4b-4626-8306-ca2c5a8b4558)
 
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation.
+Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations in shared memory and global memory implementation. The elapsed times are recorded as performance metrics to analyze the efficiency and effectiveness of each memory type in the transposition operation.
